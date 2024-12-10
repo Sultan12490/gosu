@@ -30,4 +30,4 @@ jobs:
         run: |
           for gosu in gosu-*; do
             ./govulncheck-with-excludes.sh -mode=binary "$gosu"
-          done
+          donedh
